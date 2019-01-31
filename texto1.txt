@@ -1,3 +1,6 @@
-hola adios
+hola bye
 
 este se supone que sea el segundo párrafo del archivo de texto número 1
+
+
+texto extra

@@ -1,0 +1,3 @@
+este es el archivo de texto número 2 de la práctica de programación orientada a objetos.
+
+este es más texto
