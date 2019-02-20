@@ -1,0 +1,105 @@
+2. 	
+	mkdir mauricio_ramirez
+	
+3. 	
+	mkdir mauricio_ramirez/aprendiendo_git
+	
+4. 	
+	cd aprendiendo_git
+	git init
+	
+5.
+	git --config global user.email "shadow.sfx.sv@gmail.com"
+	git --config global user.name "Mauricio Ramirez"
+	
+6. 
+	git status
+	//Muestra la rama en que se está trabajando y que no hay nada pendiente para commit
+	
+7. 
+	touch texto1.txt
+	nano texto1.txt
+8.	
+	git add texto1.txt
+
+9.
+	git commit texto1.txt -m "Este es el primer commit"
+	
+10.
+	git status
+	// Muestra las cosas que se han hecho y las pendientes
+	
+11. 
+	mkdir directorio1
+	touch directorio1/texto2.txt
+	nano directorio1/texto2.txt
+	touch directorio1/texto3.txt
+	nano directorio1/texto3.txt
+	
+12.	
+	nano texto1.txt
+	
+13. 
+	git diff
+	// Muestra los archivos que son diferentes luego muestra lo que cambió y como estaba antes.
+
+14.
+	git add *
+	
+15.
+	git status
+	
+16. 
+	git reset directorio1/texto2.txt
+	
+17.
+	git commit -m "Segundo commit"
+	
+18.
+19.
+	nano directorio1/texto2.txt
+20. 
+	nano texto1.txt
+21.
+	git diff
+	// Mostró el antes y el despues de los archivos modificados
+	
+22.
+	git add *
+	
+23.
+	git commit -m "Tercer commit"
+
+24. 
+	git checkout 5a0047eaeebf50a368ec9cee2a757ec19b0a0bad
+
+25.
+26.
+	git checkout master
+	
+27.
+	git branch rama2
+
+28. 
+	git checkout rama2
+	
+29.
+	mkdir directorio2
+	touch directorio2/texto4.txt
+	nano texto4.txt
+
+30.
+	git commit -m "Primer commit hecho en la rama2"
+	
+31.
+	git log
+	
+32.
+	git checkout master
+	
+33.
+	git merge rama2
+
+34.
+
+	
